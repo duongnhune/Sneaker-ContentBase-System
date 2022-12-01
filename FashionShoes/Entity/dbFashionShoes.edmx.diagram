@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="94044c46f40140b1acedd07b733cf07b" Name="Diagram1">
+        <EntityTypeShape EntityType="dbFashionShoesModel.sysdiagram" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFashionShoesModel.tb_ChucVu" Width="1.5" PointX="1.5" PointY="18.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFashionShoesModel.tb_CTHDBanHang" Width="1.5" PointX="8.25" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFashionShoesModel.tb_CTPhieuDoiHang" Width="1.5" PointX="13.5" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFashionShoesModel.tb_CTPhieuNhapHang" Width="1.5" PointX="11.25" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFashionShoesModel.tb_CTPhieuTraHang" Width="1.5" PointX="8.25" PointY="25.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFashionShoesModel.tb_CuaHang" Width="1.5" PointX="1.5" PointY="21" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFashionShoesModel.tb_DanhGia" Width="1.5" PointX="11.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFashionShoesModel.tb_DanhMuc" Width="1.5" PointX="3.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFashionShoesModel.tb_HDBanHang" Width="1.5" PointX="6" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFashionShoesModel.tb_HeThongCuaHang" Width="1.5" PointX="1.5" PointY="25.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFashionShoesModel.tb_KhachHang" Width="1.5" PointX="9" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFashionShoesModel.tb_KhuyenMai" Width="1.5" PointX="3.75" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFashionShoesModel.tb_MauSac" Width="1.5" PointX="3.75" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFashionShoesModel.tb_NCC_ThgHieu" Width="1.5" PointX="3" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFashionShoesModel.tb_NhaCungCap" Width="1.5" PointX="0.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFashionShoesModel.tb_NhanVien" Width="1.5" PointX="3.75" PointY="19.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFashionShoesModel.tb_PhieuDoiHang" Width="1.5" PointX="11.25" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFashionShoesModel.tb_PhieuNhapHang" Width="1.5" PointX="9" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFashionShoesModel.tb_PhieuTraHang" Width="1.5" PointX="6" PointY="25.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFashionShoesModel.tb_SanPham" Width="1.5" PointX="6" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFashionShoesModel.tb_Size" Width="1.5" PointX="8.25" PointY="17.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFashionShoesModel.tb_ThuongHieu" Width="1.5" PointX="0.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFashionShoesModel.tb_TrangThaiHoaDon" Width="1.5" PointX="3.75" PointY="24.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbFashionShoesModel.tb_TrangThaiSanPham" Width="1.5" PointX="3.75" PointY="15.5" IsExpanded="true" />
+        <AssociationConnector Association="dbFashionShoesModel.FK_tb_NhanVien_tb_ChucVu" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFashionShoesModel.FK_CTHDBanHang_SanPham" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFashionShoesModel.FK_tb_CTHDBanHang_HDBanHang" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFashionShoesModel.FK_tb_CTHDBanHang_tb_CuaHang" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFashionShoesModel.fk_CTPhieuDoiHang_PhieuDoiHang" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFashionShoesModel.fk_CTPhieuNhapHang_HDNH" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFashionShoesModel.fk_CTPhieuNhapHang_SP" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFashionShoesModel.fk_CTPhieuTraHang_PhieuTraHang" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFashionShoesModel.fk_CuaHang_HeThongCuaHang" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFashionShoesModel.FK_tb_NhanVien_tb_CuaHang" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFashionShoesModel.fk_DanhGia_KhachHang" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFashionShoesModel.fk_DanhGia_SanPham" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFashionShoesModel.fk_SanPham_DanhMuc" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFashionShoesModel.fk_HDBanHang_KH" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFashionShoesModel.fk_HDBanHang_NV" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFashionShoesModel.fk_HDBanHang_TrangThaiHD" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFashionShoesModel.fk_PhieuDoiHang_KhachHang" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFashionShoesModel.fk_SanPham_KhuyenMai" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFashionShoesModel.fk_NCC_HangSx_HangSx" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFashionShoesModel.fk_NCC_HangSx_NCC" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFashionShoesModel.fk_PhieuDoiHang_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFashionShoesModel.fk_PhieuNhapHang_NV" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFashionShoesModel.fk_PhieuTraHang_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFashionShoesModel.fk_SanPham_ThgHieu" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFashionShoesModel.fk_SanPham_TTSP" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFashionShoesModel.tb_MauSac_SanPham" ManuallyRouted="false" />
+        <AssociationConnector Association="dbFashionShoesModel.tb_Size_SanPham" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
